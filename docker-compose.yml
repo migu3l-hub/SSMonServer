@@ -2,7 +2,7 @@ version: '3'
 services:
   app:
     environment:
-      SECRET_KEY: '!c)#_^&inv2m2*ru_l8bk!a2z0=b(_fyww7=^1-e)op5j063zi'
+      SECRET_KEY: ${SECRET_KEY}
     build:
       ./app
     restart: always

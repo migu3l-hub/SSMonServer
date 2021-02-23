@@ -11,4 +11,4 @@ CMD ttyd -c usrttyd:pwdttyd -p 7681 bash
 
 EXPOSE 7681
 
-#docker run --name mitty -d -p 8888:8888 terminal
+#docker run --name mitty -d -p 8888:7681 monitor_tty
